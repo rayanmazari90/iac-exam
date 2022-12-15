@@ -2,17 +2,17 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appServiceAppNameBE": {
-            "value": "bmazari-assignment-app-BE-prod-bicep"
-        },
-        "appServiceAppNameFE": {
-            "value": "bmazari-assignment-app-FE-prod-bicep"
+        "appServiceAppName": {
+            "value": "RAYANEBOUMEDIENEMAZARI-finalexam"
         },
         "appServicePlanName": {
-            "value": "bmazari-assignment-ASP-prod-bicep"
+            "value": "RAYANEBOUMEDIENEMAZARI-finalexam"
         },
-        "storageAccountName": {
-            "value": "jseijasprodstorage"
+        "storageAccountKind":{
+            "value": "StorageV2"
+        },
+        "storageAccountAccessTier":{
+            "value": "Hot"
         }
     }
 }
